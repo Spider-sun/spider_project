@@ -13,7 +13,7 @@ class MongoDB(object):
         self.mongo = self.client['music']['sings']
 
     def __del__(self):
-        # 关闭数据库的连接
+        # 关闭数据库连接
         self.client.close()
 
     def insert_one(self, music):
