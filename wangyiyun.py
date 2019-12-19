@@ -2,7 +2,7 @@ import requests
 import re
 import json
 
-from core.db.mongo_pool import MongoDB
+from mongodb import MongoDB
 from settings import HEADERS
 from domain import Music
 
