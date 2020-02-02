@@ -49,9 +49,9 @@ def get_proxy():
 def can():
     api_url = "https://dev.kdlapi.com/api/setipwhitelist"
     data = {
-        'orderid': '957415078493226',  # 用户的orderid值
-        'iplist': '123.163.213.19, 123.163.213.19',  # 需要设置的白名单
-        'signature': 'l6l71rism9jh0g3w45ujvyxsp4xcu0f1',  # 用户的Key值
+        'orderid': 'xxxxxxxxxxxxx',  # 用户的orderid值
+        'iplist': 'xxx.xx.xxx.xx, xxx.xxx.xxx.x',  # 需要设置的白名单
+        'signature': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',  # 用户的Key值
     }
     r = requests.post(url=api_url, data=data)
     # print(r.status_code)  # 获取Reponse的返回码
